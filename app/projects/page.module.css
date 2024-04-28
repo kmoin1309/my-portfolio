@@ -1,0 +1,42 @@
+.projectPage {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    width: 100%;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 15px 0;
+}
+
+.projectContainer {
+    margin: 20px 15px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.2rem;
+}
+
+@media (max-width:800px) {
+    .projectContainer {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width:620px) {
+    .projectContainer {
+        grid-template-columns: 1fr;
+        margin-top:0 ;
+    }
+
+    
+}
+
+@media (max-width:480px) {
+    .searchContainer {
+       flex-direction: column;
+       gap:1.3rem;
+    }
+}
