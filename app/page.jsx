@@ -32,7 +32,7 @@ function HomePage() {
               1000,
               "Web-Developer.",
               1000,
-              "Programer.",
+              "Programmer.",
               1000,
               "Tech Enthusiast.",
               1000,
