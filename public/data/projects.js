@@ -99,7 +99,7 @@ export const projects = [
   {
     id: 11,
     image: "/assests/projects/password.png",
-    title: "Password-Generatot",
+    title: "Password-Generator",
     description: "A simple Password Generator App built with JavaScript",
     type: "js",
     demo: "https://kmoin1309.github.io/Password-Generator/",

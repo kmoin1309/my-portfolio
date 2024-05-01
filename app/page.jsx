@@ -5,6 +5,8 @@ import SocialIcons from "./components/socialIcons/SocialIcons";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 
+const FILE_NAME = "1cS6lA6uYTnqgwX7mmqb8ypTtBNeXFN-0";
+
 function HomePage() {
   return (
     <main className={`${styles.homeContainer}`}>
@@ -41,10 +43,10 @@ function HomePage() {
             speed={50}
             style={{
               fontSize: "4rem",
-              lineHeight:"1.6",
+              lineHeight: "1.6",
               display: "inline-block",
               fontWeight: 700,
-              color: "var(--main-light-color)", 
+              color: "var(--main-light-color)",
               font: "bold",
             }}
             repeat={Infinity}
@@ -54,15 +56,22 @@ function HomePage() {
         <SocialIcons />
 
         <div className={styles.buttonBox}>
-          <button className={styles.button}>
+          <a
+            href={`https://drive.google.com/u/1/uc?id=${FILE_NAME}&export=download`}
+            rel="noreferrer"
+            download
+            target="_self"
+            className={styles.button}
+          >
             <span className={styles.buttonTxt}>Download CV</span>
             <span className={styles.buttonIcon}>
               <FaDownload />
             </span>
-          </button>
+          </a>
         </div>
       </div>
     </main>
   );
 }
 export default HomePage;
+// https://drive.google.com/uc?export=download&id=1cS6lA6uYTnqgwX7mmqb8ypTtBNeXFN-0

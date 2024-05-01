@@ -102,12 +102,6 @@ export const skills = [
     type: "png",
   },
   {
-    id: 18,
-    name: "Java",
-    image: "/assests/skills/java.png",
-    type: "png",
-  },
-  {
     id: 19,
     name: "Google Cloud",
     image: "/assests/skills/cloud.png",
