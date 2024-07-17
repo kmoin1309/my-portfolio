@@ -127,6 +127,7 @@
 }
 
 .buttonTxt {
+    padding: 10px 20px;
     font-size: 1.6rem;
     font-weight: bold;
     position: absolute;

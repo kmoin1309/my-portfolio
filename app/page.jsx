@@ -5,7 +5,7 @@ import SocialIcons from "./components/socialIcons/SocialIcons";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 
-const FILE_NAME = "1K-3bZzPdUOIm2HdDWbiiVdAp2at9KRnY";
+const FILE_NAME = "1v--PubxGHIsfPa9r1IVx2nywUDXLLaYl";
 
 function HomePage() {
   return (
@@ -63,7 +63,7 @@ function HomePage() {
             target="_self"
             className={styles.button}
           >
-            <span className={styles.buttonTxt}>Download CV</span>
+            <span className={styles.buttonTxt}>Download Resume</span>
             <span className={styles.buttonIcon}>
               <FaDownload />
             </span>
