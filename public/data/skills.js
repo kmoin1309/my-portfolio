@@ -26,8 +26,8 @@ export const skills = [
   {
     id: 5,
     name: "TypeScript",
-    image: "/assests/skills/typescript.jpg",
-    type: "jpg",
+    image: "/assests/skills/typescript.png",
+    type: "png",
   },
   {
     id: 6,
@@ -116,8 +116,8 @@ export const skills = [
   {
     id: 20,
     name: "AWS-EC2",
-    image: "/assests/skills/aws.png",
-    type: "png",
+    image: "/assests/skills/aws.jpg",
+    type: "jpg",
   },
   {
     id: 21,
@@ -129,12 +129,6 @@ export const skills = [
     id: 22,
     name: "WebRTC",
     image: "/assests/skills/webrtc.png",
-    type: "png",
-  },
-  {
-    id: 23,
-    name: "GRPC",
-    image: "/assests/skills/grpc.png",
     type: "png",
   },
   {
