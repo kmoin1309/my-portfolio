@@ -6,22 +6,22 @@ import SkillsList from "./components/skillsList/SkillsList";
 function AboutPage() {
   return (
     <main className="container">
-      <PageHeading secondaryTitle="My Study" primaryTitle={`ABOUT ME`} />
+      <PageHeading
+        secondaryTitle="My Study"
+        primaryTitle={`ABOUT ME`}
+      />
 
       <div className={styles.boxes}>
         <div className={styles.box}>
           <h2 className={styles.aboutBoxTitle}>Who am I ? </h2>
+          <p>Hello there, My name is Moinuddin Quazi, I'm a MERN Developer.</p>
           <p>
-            Hello there, My name is Moinuddin Quazi, I'm a MERN
-            Developer.
+            Over the years, I have delved into numerous technologies, created
+            innovative websites, and contributed to various projects.
           </p>
           <p>
-            During this duration, I have learned a lot of technologies, created
-            many cool website, and contributed to various projects.
-          </p>
-          <p>
-            So I'm always seeking to have an opportunity that matches my skills,
-            to make the best use of all that I have learned
+            I am continuously seeking opportunities that align with my skills and
+            allow me to leverage everything I have learned.
           </p>
         </div>
 
@@ -29,8 +29,7 @@ function AboutPage() {
           <h2 className={styles.aboutBoxTitle}>Education :</h2>
           <p>
             Studies Bachelor of Computer Science - Computer Science department
-            at Terna Engineering College , Mumbai university. 2022 -
-            2026
+            at Terna Engineering College , Mumbai university. 2022 - 2026
           </p>
         </div>
 

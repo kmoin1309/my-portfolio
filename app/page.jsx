@@ -5,7 +5,7 @@ import SocialIcons from "./components/socialIcons/SocialIcons";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 
-const FILE_NAME = "1cS6lA6uYTnqgwX7mmqb8ypTtBNeXFN-0";
+const FILE_NAME = "1K-3bZzPdUOIm2HdDWbiiVdAp2at9KRnY";
 
 function HomePage() {
   return (
@@ -74,4 +74,5 @@ function HomePage() {
   );
 }
 export default HomePage;
-// https://drive.google.com/uc?export=download&id=1cS6lA6uYTnqgwX7mmqb8ypTtBNeXFN-0
+// https://drive.google.com/uc?export=download&id=1K-3bZzPdUOIm2HdDWbiiVdAp2at9KRnY
+//drive.google.com/file/d/1K-3bZzPdUOIm2HdDWbiiVdAp2at9KRnY/view?usp=sharing
