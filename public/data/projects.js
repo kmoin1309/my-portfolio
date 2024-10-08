@@ -11,7 +11,7 @@ export const projects = [
   },
   {
     id: 2,
-    image: "/assests/projects/Kala-kendra.png",
+    image: "/assests/projects/kala-kendra.png",
     title: "Kala-Kendra",
     description:
       "Kala-Kendra is an e-commerce platform designed to support artisans by connecting them with buyers for their unique handmade products.",
