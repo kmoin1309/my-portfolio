@@ -1,6 +1,36 @@
 export const projects = [
   {
     id: 1,
+    image: "/assests/projects/code-collab.jpeg",
+    title: "Code-Collab",
+    description:
+      "It is a platform designed for developers to work together on coding projects in real-time, share code, and enhance productivity through seamless interaction and communication",
+    type: "next",
+    demo: "https://github.com/kmoin1309/CodeCollab",
+    github: "https://github.com/kmoin1309/CodeCollab",
+  },
+  {
+    id: 2,
+    image: "/assests/projects/Kala-kendra.png",
+    title: "Kala-Kendra",
+    description:
+      "Kala-Kendra is an e-commerce platform designed to support artisans by connecting them with buyers for their unique handmade products.",
+    type: "react",
+    demo: "https://kala-kendra-hackathon.vercel.app",
+    github: "https://github.com/kmoin1309/kala-Kendra",
+  },
+  {
+    id: 3,
+    image: "/assests/projects/talent-track.png",
+    title: "Talent-Track",
+    description:
+      "Talent-Track is an AI-powered platform that connects technical students with tailored job and internship opportunities while enabling recruiters to efficiently filter and communicate with candidates.",
+    type: "react",
+    demo: "https://talenttrack.vercel.app",
+    github: "https://github.com/kmoin1309/Talent-Track",
+  },
+  {
+    id: 4,
     image: "/assests/projects/chatapp.png",
     title: "AI ChatApp",
     description: "Chat App with ChatGPT API Integration",
@@ -10,7 +40,7 @@ export const projects = [
       "https://github.com/kmoin1309/chat-app-with-chatgpt-api-integration",
   },
   {
-    id: 2,
+    id: 5,
     image: "/assests/projects/studynotion.png",
     title: "StudyNotion",
     type: "react",
@@ -19,7 +49,7 @@ export const projects = [
     github: "https://github.com/kmoin1309/StudyNotion",
   },
   {
-    id: 3,
+    id: 6,
     image: "/assests/projects/weather.png",
     title: "Weather App",
     description:
@@ -29,7 +59,7 @@ export const projects = [
     github: "https://github.com/kmoin1309/Weather-App",
   },
   {
-    id: 4,
+    id: 7,
     image: "/assests/projects/toDo.png",
     title: "Todo App",
     description:
@@ -39,7 +69,7 @@ export const projects = [
     github: "https://github.com/kmoin1309/Todo-app-with-Nodejs",
   },
   {
-    id: 5,
+    id: 8,
     image: "/assests/projects/tic-tac-toe.png",
     title: "Tic Tac Toe",
     description:
@@ -49,7 +79,7 @@ export const projects = [
     github: "https://github.com/kmoin1309/Tic-Tac-Toe-Game",
   },
   {
-    id: 6,
+    id: 9,
     image: "/assests/projects/snakeai.png",
     title: "snake-ai-pytorch",
     description:
@@ -59,7 +89,7 @@ export const projects = [
     github: "https://github.com/kmoin1309/snake-ai-pytorch",
   },
   {
-    id: 7,
+    id: 10,
     image: "/assests/projects/SchedulingAlgo.png",
     title: "Scheduling-Algorithms",
     description:
@@ -69,7 +99,7 @@ export const projects = [
     github: "https://github.com/kmoin1309/Scheduling-Algorithms",
   },
   {
-    id: 8,
+    id: 11,
     image: "/assests/projects/attendance-management-system.png",
     title: "Attendance Management System",
     description:
@@ -79,7 +109,7 @@ export const projects = [
     github: "https://github.com/kmoin1309/Attendance-Management-System",
   },
   {
-    id: 9,
+    id: 12,
     image: "/assests/projects/shopapp.png",
     title: "ShopApp",
     description: "A Basic E-commerce React Website with redux",
@@ -88,7 +118,7 @@ export const projects = [
     github: "https://github.com/kmoin1309/shopapp",
   },
   {
-    id: 10,
+    id: 13,
     image: "/assests/projects/blogs.png",
     title: "Blogs App",
     description: "A Simple Blogs App made with React.",
@@ -97,7 +127,7 @@ export const projects = [
     github: "https://github.com/kmoin1309/React-Blogs-2",
   },
   {
-    id: 11,
+    id: 14,
     image: "/assests/projects/password.png",
     title: "Password-Generator",
     description: "A simple Password Generator App built with JavaScript",
@@ -106,7 +136,7 @@ export const projects = [
     github: "https://github.com/kmoin1309/Password-Generator",
   },
   {
-    id: 12,
+    id: 15,
     image: "/assests/projects/razorpay.png",
     title: "Razorpay Clone",
     description: "A Razorpay Clone just by using Html and CSS",
@@ -115,7 +145,7 @@ export const projects = [
     github: "https://github.com/kmoin1309/Razorpayproject.github.io",
   },
   {
-    id: 12,
+    id: 16,
     image: "/assests/projects/discord.png",
     title: "Discord Clone",
     description: "A Discord Clone just by using Html and CSS",

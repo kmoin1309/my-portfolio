@@ -5,7 +5,7 @@ import SocialIcons from "./components/socialIcons/SocialIcons";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 
-const FILE_NAME = "1v--PubxGHIsfPa9r1IVx2nywUDXLLaYl";
+const FILE_NAME = "1TupV7urdHB8pl8_zfdKdsmAAifO8HvkN";
 
 function HomePage() {
   return (
