@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 1,
-    image: "/assests/projects/code-collab.jpeg",
+    image: "/assests/projects/code-collab.png",
     title: "Code-Collab",
     description:
       "It is a platform designed for developers to work together on coding projects in real-time, share code, and enhance productivity through seamless interaction and communication",
