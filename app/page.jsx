@@ -15,7 +15,7 @@ function HomePage() {
         <div className={styles.imageBox}>
           <Image
             className={styles.personalImage}
-            src="/assests/home/homeImage.jpg"
+            src="/assests/home/homeImage3.jpeg"
             alt="personal image"
             width={350}
             height={500}
