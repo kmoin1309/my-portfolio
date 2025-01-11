@@ -5,7 +5,6 @@ import SocialIcons from "./components/socialIcons/SocialIcons";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 
-const FILE_NAME = "1TupV7urdHB8pl8_zfdKdsmAAifO8HvkN";
 
 function HomePage() {
   return (
@@ -57,12 +56,13 @@ function HomePage() {
 
         <div className={styles.buttonBox}>
           <a
-            href={`https://drive.google.com/u/1/uc?id=${FILE_NAME}&export=download`}
+            href={`https://drive.google.com/uc?id=17IUlyyVntWkOrV6z0SS02C2uvUYBLZrD&export=download`}
             rel="noreferrer"
             download
             target="_self"
             className={styles.button}
           >
+            Download File
             <span className={styles.buttonTxt}>Download Resume</span>
             <span className={styles.buttonIcon}>
               <FaDownload />
