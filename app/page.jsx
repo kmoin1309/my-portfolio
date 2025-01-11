@@ -62,7 +62,6 @@ function HomePage() {
             target="_self"
             className={styles.button}
           >
-            Download File
             <span className={styles.buttonTxt}>Download Resume</span>
             <span className={styles.buttonIcon}>
               <FaDownload />
